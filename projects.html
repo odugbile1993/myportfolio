@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Ayodele Odugbile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Ayodele Odugbile</a>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Projects Hero Section -->
+    <section class="projects-hero">
+        <div class="container">
+            <h1 class="section-title">My Projects</h1>
+            <p>Explore my work in data analytics, machine learning, and financial technology</p>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid">
+        <div class="container">
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="data">Data Analytics</button>
+                <button class="filter-btn" data-filter="finance">Financial Tech</button>
+            </div>
+            
+            <div class="projects-container">
+                <div class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Real-Time Fraud Detection System</h3>
+                        <p>Machine learning system for detecting fraudulent financial transactions in real-time using XGBoost and TensorFlow.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>XGBoost</span>
+                        </div>
+                        <a href="https://github.com/OpenFraudLabs/credit-fraud-ml-pipeline" class="project-link">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="data">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Automated Data Pipeline</h3>
+                        <p>SQL data pipelines that reduced manual reporting time by 40% and enabled real-time data availability for analysis.</p>
+                        <div class="project-tech">
+                            <span>SQL</span>
+                            <span>Python</span>
+                            <span>ETL</span>
+                        </div>
+                        <a href="https://github.com/OpenFraudLabs/credit-fraud-ml-pipeline" class="project-link">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="finance">
+                    <div class="project-image">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Predictive Risk Model</h3>
+                        <p>Risk assessment model that reduced non-performing loans by 40% within one year at AB Microfinance Bank.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Risk Analysis</span>
+                        </div>
+                        <a href="https://openfraudlabs.github.io/credit-score-ML/" class="project-link">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sampling Techniques Research</h3>
+                        <p>Empirical study on the effect of sampling techniques on fraud detection performance with XGBoost.</p>
+                        <div class="project-tech">
+                            <span>Research</span>
+                            <span>XGBoost</span>
+                            <span>Data Sampling</span>
+                        </div>
+                        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5387306" class="project-link">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="data">
+                    <div class="project-image">
+                        <i class="fas fa-table"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Financial Dashboards</h3>
+                        <p>Interactive Looker dashboards for monitoring key financial metrics and risk indicators across global operations.</p>
+                        <div class="project-tech">
+                            <span>Looker</span>
+                            <span>Data Visualization</span>
+                            <span>Business Intelligence</span>
+                        </div>
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="finance">
+                    <div class="project-image">
+                        <i class="fas fa-money-check-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Credit Card Fraud Detection</h3>
+                        <p>Deployable machine learning approaches for real-time credit card fraud detection in digital finance.</p>
+                        <div class="project-tech">
+                            <span>Machine Learning</span>
+                            <span>Fraud Detection</span>
+                            <span>Python</span>
+                        </div>
+                        <a href="https://github.com/OpenFraudLabs/credit-fraud-ml-pipeline" class="project-link">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="publications">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <div class="pub-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="pub-content">
+                        <h3>Deployable Machine Learning Approaches for Real-Time Credit Card Fraud Detection in Digital Finance</h3>
+                        <p class="pub-meta">SSRN | 2025</p>
+                        <p>Research on implementing machine learning solutions for detecting credit card fraud in real-time financial systems.</p>
+                        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5289954" class="pub-link">Read Publication</a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <div class="pub-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="pub-content">
+                        <h3>Effect of Sampling Techniques on Fraud Detection Performance: An Empirical Study with XGBoost</h3>
+                        <p class="pub-meta">Preprint | 2025</p>
+                        <p>Empirical analysis of how different sampling techniques affect the performance of fraud detection models using XGBoost.</p>
+                        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5387306" class="pub-link">Read Publication</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Interested in Collaborating?</h2>
+            <p>I'm always open to discussing new projects, research opportunities, or partnerships.</p>
+            <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ayodele Odugbile</h3>
+                    <p>Data Analyst & FinTech Researcher</p>
+                    <p>Specializing in AI for Financial Fraud Detection</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ayodele-odugbile-939b97185/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/OpenFraudLabs"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> drolalekan.ayodele@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +2348100812513</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Akure, Ondo State, Nigeria</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Ayodele Odugbile. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
