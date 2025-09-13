@@ -31,14 +31,6 @@ body {
     padding: 0 15px;
 }
 
-.profile-photo {
-    width: 220px;        /* adjust size */
-    height: auto;
-    border-radius: 12px; /* rounded corners */
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    object-fit: cover;
-}
-
 section {
     padding: 5rem 0;
 }
@@ -972,3 +964,11 @@ footer {
             font-size: 8rem;
             opacity: 0.7;
         }
+
+.profile-photo {
+    width: 220px;        /* adjust size */
+    height: auto;
+    border-radius: 12px; /* rounded corners */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
