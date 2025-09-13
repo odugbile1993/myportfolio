@@ -737,7 +737,78 @@ footer {
     text-decoration: underline;
 }
 
-/* Contact Form Styles */
+ /* Contact Page Styles */
+.contact-hero {
+    padding: 8rem 0 4rem;
+    background-color: white;
+    text-align: center;
+}
+
+.contact-content {
+    padding: 4rem 0;
+    background-color: #f5f7fa;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+}
+
+.contact-info h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.contact-info > p {
+    margin-bottom: 2rem;
+    color: var(--text-light);
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s;
+}
+
+.contact-method:hover {
+    transform: translateY(-3px);
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contact-details h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.3rem;
+}
+
+.contact-details p,
+.contact-details a {
+    color: var(--text-light);
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    color: var(--secondary-color);
+}
+
+/* ✅ Refined Contact Form */
 .contact-form {
     background-color: #fff;
     padding: 2.5rem;
@@ -745,7 +816,7 @@ footer {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
     position: relative;
     overflow: hidden;
-    border-top: 6px solid var(--secondary-color); /* Top accent */
+    border-top: 6px solid var(--secondary-color);
 }
 
 .contact-form h3 {
@@ -834,6 +905,11 @@ textarea.form-control {
     .form-control {
         font-size: 0.95rem;
         padding: 0.8rem;
+    }
+
+    .contact-method {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
 /* Responsive Design */
