@@ -185,4 +185,4 @@ Safari (latest)
 
 Edge (latest)
 
-Last updated: April 2023
+Last updated: September 2025
